@@ -64,6 +64,3 @@ Description: Adding the script (<script>document.location="https://www.google.co
 
 
 
-## Notes
-
-Describe any challenges encountered while doing the work
