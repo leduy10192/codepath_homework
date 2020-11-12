@@ -1,6 +1,6 @@
 # Honeypot Assignment
 
-**Time spent:** **X** hours spent in total
+**Time spent:** **10** hours spent in total
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
@@ -24,6 +24,7 @@ After 24 hours, it was able to capture almost 53,000 attacks:
 **Summary:** 
 - MHN-Admin uses MongoDB to store data. That's why we can get data in a more JSON-friendly way.
 - The JSON file records information about id, protocol, hpfeeds id, source id, source port, destination port and identifier.
+- File session.json has been uploaded to my GitHub repo as proof of work.
 
 ### Deploying Additional Honeypot(s) (Optional)
 
