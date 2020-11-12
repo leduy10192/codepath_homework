@@ -15,32 +15,23 @@
 
 <img src="http://g.recordit.co/gkH3QewxD3.gif">
 
+After 24 hours, it was able to capture almost 53,000 attacks:
+
+<img src="http://g.recordit.co/o3ofcQNX0l.gif">
+
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
-
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
+**Summary:** 
+- MHN-Admin uses MongoDB to store data. That's why we can get data in a more JSON-friendly way.
+- The JSON file records information about id, protocol, hpfeeds id, source id, source port, destination port and identifier.
 
 ### Deploying Additional Honeypot(s) (Optional)
 
-#### X Honeypot
+#### Snort and ElasticHoney Honeypot
+**Summary:** 
+- Snort is an "open source intrusion prevention system capable of real-time traffic analysis and packet logging." 
+- ElasticHoney is a "simple elasticsearch honeypot designed to catch attackers exploiting RCE vulnerabilities in elasticsearch."
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+<img src="http://g.recordit.co/I2prHHC2mx.gif">
 
-<img src="x-honeypot.gif">
 
-### Malware Capture and Identification (Optional)
-
-#### X Malware
-
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
-
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
-
-<img src="x-malware.gif">
-
-## Notes
-
-Describe any challenges encountered while doing the assignment.
